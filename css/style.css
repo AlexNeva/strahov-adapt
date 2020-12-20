@@ -823,7 +823,7 @@ h3 {
 }
 
 .no-webp .intro{
-  background: url("../img/intro/hands.png") 100% 0/contain no-repeat, url("../img/intro/background-block-two.png") -3px 300px no-repeat, url("../img/intro/Ellipse.png") 0 400px no-repeat, url("../img/intro/house.png") right 527px top 300px no-repeat, url("../img/intro/bullits.png") 0 bottom no-repeat; }
+  background: url("../img/intro/hands.png") 100% 0 no-repeat, url("../img/intro/background-block-two.png") -3px 300px no-repeat, url("../img/intro/Ellipse.png") 0 400px no-repeat, url("../img/intro/house.png") right 527px top 300px no-repeat, url("../img/intro/bullits.png") 0 bottom no-repeat; }
 
 .intro {
   padding-top: 190px;
@@ -3239,7 +3239,7 @@ h3 {
   }
 
   .no-webp .intro{
-    background: url("../img/intro/hands.png") 100% 0/contain no-repeat, url("../img/intro/background-block-two.png") -400px -250px no-repeat, url("../img/intro/Ellipse.png") 0 400px no-repeat, url("../img/intro/house.png") right 527px top 300px no-repeat, url("../img/intro/bullits.png") 0 bottom no-repeat; }
+    background: url("../img/intro/hands.png") 100% 0/70% no-repeat, url("../img/intro/wave-gray-576.png") 0 0/contain no-repeat, url("../img/intro/bullits.png") 0 bottom no-repeat; }
 
   .intro__btn {
     max-width: 150px;
@@ -3425,7 +3425,7 @@ h3 {
 
 .webp .header .dd-pointer{ background: url(../img/header/arr.webp) center no-repeat; }
 
-.webp .intro{ background: url(../img/intro/hands.webp) 100% 0/contain no-repeat, url(../img/intro/background-block-two.webp) -3px 300px no-repeat, url(../img/intro/Ellipse.webp) 0 400px no-repeat, url(../img/intro/house.webp) right 527px top 300px no-repeat, url(../img/intro/bullits.webp) 0 bottom no-repeat; }
+.webp .intro{ background: url(../img/intro/hands.webp) 100% 0 no-repeat, url(../img/intro/background-block-two.webp) -3px 300px no-repeat, url(../img/intro/Ellipse.webp) 0 400px no-repeat, url(../img/intro/house.webp) right 527px top 300px no-repeat, url(../img/intro/bullits.webp) 0 bottom no-repeat; }
 
 .webp .intro__btn::after{ background: url(../img/intro/arrow-white.webp) 0 0 no-repeat; }
 
@@ -3560,7 +3560,7 @@ h3 {
 
 @media (max-width: 576px){
 
-  .webp .intro{ background: url(../img/intro/hands.webp) 100% 0/contain no-repeat, url(../img/intro/background-block-two.webp) -400px -250px no-repeat, url(../img/intro/Ellipse.webp) 0 400px no-repeat, url(../img/intro/house.webp) right 527px top 300px no-repeat, url(../img/intro/bullits.webp) 0 bottom no-repeat; }
+  .webp .intro{ background: url(../img/intro/hands.webp) 100% 0/70% no-repeat, url(../img/intro/wave-gray-576.webp) 0 0/contain no-repeat, url(../img/intro/bullits.webp) 0 bottom no-repeat; }
 }
 
 @media (max-width: 576px){
