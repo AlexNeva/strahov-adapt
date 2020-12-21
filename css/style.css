@@ -1950,10 +1950,6 @@ h3 {
   margin-bottom: 68px;
 }
 
-.price__container {
-  overflow-x: hidden;
-}
-
 .price__title {
   margin-bottom: 12px;
 }
@@ -2056,7 +2052,6 @@ h3 {
 }
 
 .content-price {
-  margin-bottom: 120px;
   position: relative;
 }
 
@@ -2083,10 +2078,26 @@ h3 {
   margin-bottom: 15px;
 }
 
+.content-price__block {
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow-x: auto;
+}
+
 .content-price__cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 60px 20px;
 }
 
 .content-price__card {
@@ -2368,9 +2379,9 @@ h3 {
   line-height: 167%;
   color: #8093B1;
   overflow: hidden;
-  -webkit-transition: all 0.2s linear 0s;
-  -o-transition: all 0.2s linear 0s;
-  transition: all 0.2s linear 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  -o-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
 }
 
 .faq .item-faq._active .item-faq__text {
@@ -2885,10 +2896,7 @@ h3 {
   }
 
   .content-price__descr {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-    margin-bottom: 60px;
+    margin-right: 0;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -3027,17 +3035,8 @@ h3 {
     margin-bottom: 5px;
   }
 
-  .content-price {
-    height: 400px;
-  }
-
-  .content-price__cards {
-    position: absolute;
-    top: 100px;
-    left: 50%;
-    -webkit-transform: translate(-50%, 0);
-        -ms-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
+  .content-price__block {
+    width: 100%;
   }
 
   .no-webp .form__body{
@@ -3330,6 +3329,12 @@ h3 {
 
   .reviews .swiper-scrollbar {
     width: 287px;
+  }
+
+  .content-price__block {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 
   .content-price__card {
