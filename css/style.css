@@ -2052,7 +2052,11 @@ h3 {
 }
 
 .content-price {
+  margin-bottom: 50px;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .content-price__descr {
@@ -2080,10 +2084,9 @@ h3 {
 
 .content-price__block {
   position: relative;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  max-width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2492,6 +2495,7 @@ h3 {
 .form__input textarea {
   padding: 40px 20px 20px 20px;
   resize: none;
+  overflow-y: auto;
 }
 
 .form__input input:focus ~ label,
@@ -3173,6 +3177,12 @@ h3 {
 
   .price .about-block__title {
     padding-left: 0;
+  }
+
+  .content-price__block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .content-price__card {
